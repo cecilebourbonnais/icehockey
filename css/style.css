@@ -1,0 +1,314 @@
+/*	################################################################
+
+	Author: Carlos Alvarez
+	URL: http://alvarez.is
+
+	Project Name: SOLID - Bootstrap 3 Theme
+	Version: 1.0
+	URL: http://alvarez.is
+	
+################################################################# */ 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic);
+
+ 
+	* { 
+		margin: 0;
+		padding: 0px;
+	} 
+
+body { 
+	background: #ffffff; 
+	margin: 0; 
+	height: 100%; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.header {
+	margin-top:100px; margin-bottom:20px;
+}
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px; 
+	margin-top: 10px; 
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #800000;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #800000;
+}
+
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+
+.centered {
+	text-align: center
+}
+
+.centerImage {
+	padding:5% 30%;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left:20px;
+    margin-top:10px;
+}
+ 
+
+
+/* Navigation */
+#home {
+	padding-top: 10px;
+	transition: all 0.5s;
+}
+#home.navbar-default {
+	background-color: rgba(248, 248, 248, 0);
+	border: none;
+}
+
+.navbar-default {
+	font-family: Montserrat;
+	font-weight: 1000;
+}
+
+.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #fff !important;
+	font-size: 12px;
+	letter-spacing: .8px;
+	text-decoration: none;
+    display: inline-block;
+    border-bottom: 0px solid transparent;  
+    transition: 0.5s ease;
+    height: 40px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover span {
+	width:100%;
+	display:inline-block; 
+	text-decoration: none; 
+		border-bottom: 2px solid white;
+	 
+ }	
+
+.navbar-header img   {
+	height:55px;
+	padding-top:7px;
+	padding-bottom:3px
+}
+
+#sidepages.navbar-default {
+	background-color: black !important;
+	padding-top:10px;
+	border-color: black;
+	padding: 10px;
+	color:white;
+}
+
+.navbar-default span {
+	height: 23px;
+}
+
+.on {
+	background-color: black !important;
+	padding: 0 !important;
+	border-color: black;
+}
+
+.on a:hover{
+	color: #800000;
+
+}
+ 
+  
+
+/* Home Header */
+
+#header {
+    background-image: -webkit-linear-gradient(-45deg, #870000, #190A05));
+    background-image: -moz-linear-gradient(-45deg, #870000, #190A05));
+    background-image: -o-linear-gradient(-45deg, #870000, #190A05));
+    background-image: linear-gradient(135deg, #870000, #190A05);
+	padding-top: 120px;
+	padding-bottom: 90px;
+	text-align: center;
+	color: white;
+
+}
+
+#header .about {
+	padding: 15px;
+}
+ 
+
+#header .img-responsive {
+	margin: 0 auto;
+}
+ 
+
+
+/* Schedule Wrap */
+
+.schedule{
+	text-align:center;
+	font-size:500px;
+	color:#8b0021;
+	padding-top:20px;
+	padding-bottom:100px;
+}
+
+.schedule iframe {
+	padding-top:50px;
+}
+
+/* FAQ */
+.faq {
+	color:black;
+	padding: 10px 10% ;
+}
+
+/* Roster */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roster {
+	color:black;
+	padding: 10px 13% ;
+}
+
+.roster table {
+  color: #333;
+  font-family: sans-serif;
+  text-align: left;
+  line-height: 40px;
+  border-spacing: 0;
+  border: 2px solid #800000;
+  margin: 50px auto;
+}
+
+.roster thead tr:first-child {
+  background: #800000;
+  color: #fff;
+  border: none;
+}
+
+.roster thead tr:last-child {
+  background: #ddd;
+  color: #000;
+  border: 2px;
+}
+
+.roster th {font-weight: bold; padding-right:25px;}
+.roster th:first-child, td:first-child {padding-left:20px; text-align: right;}
+.roster thead tr:last-child th {border-bottom: 1px solid #000;}
+.roster tbody tr:hover {background-color: #f0f0f0;}
+.roster tbody tr:last-child td {border: none;}
+.roster tbody td {border-bottom: 1px solid #ddd;}
+
+.roster th:first-child { text-align: center !important;
+}
+
+.roster td {
+  padding-right: 25px;
+  font-size: .9em;
+  font-weight: 300;
+}
+ 
+
+#submenu {
+	font-size: 12px;
+}
+/* Playbook */
+
+.playbook h2, h4 {
+	margin-top:20px;
+}
+
+.playbook {
+	padding: 10px 10% ;
+}
+
+.playbook em{
+	margin-bottom: 10px;
+    display: inline-block;
+    width:100%;
+}
+
+.playbook object {
+	margin-right:10px;
+}
+
+/* Photos */
+ .photos  {
+ 	padding: 2% 8%;
+ 	text-align: center;
+ }
+
+ .photos img {
+ 	margin-right: 5px;
+ 	margin-top: 5px;
+ }
+
+/* Footer */
+
+footer {
+	background-color: #000 !important;
+	color: white;
+	text-align:center;
+}
+
+.footer-col {
+	margin-top: 8px;
+	margin-bottom:10px;
+
+}
+ 
+footer a {
+	color: white !important;
+	font-size: 12px;
+}  
