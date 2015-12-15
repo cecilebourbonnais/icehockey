@@ -14,10 +14,10 @@
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic);
 
  
-	* { 
-		margin: 0;
-		padding: 0px;
-	} 
+* { 
+	margin: 0;
+	padding: 0px;
+} 
 
 body { 
 	background: #ffffff; 
@@ -210,12 +210,7 @@ ul {
 }
 
 /* Roster */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+ 
 .roster {
 	color:black;
 	padding: 10px 13% ;
