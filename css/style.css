@@ -209,52 +209,59 @@ ul {
 	padding: 10px 10% ;
 }
 
-/* Roster */
+/* table */
  
-.roster {
+.table {
 	color:black;
 	padding: 10px 13% ;
 }
 
-.roster table {
+.table table {
   color: #333;
   font-family: sans-serif;
   text-align: left;
   line-height: 40px;
+  min-width: 75%;
   border-spacing: 0;
   border: 2px solid #800000;
   margin: 50px auto;
 }
 
-.roster thead tr:first-child {
+.table thead tr:first-child {
   background: #800000;
   color: #fff;
   border: none;
 }
 
-.roster thead tr:last-child {
+.table thead tr:last-child {
   background: #ddd;
   color: #000;
   border: 2px;
 }
 
-.roster th {font-weight: bold; padding-right:25px;}
-.roster th:first-child, td:first-child {padding-left:20px; text-align: right;}
-.roster thead tr:last-child th {border-bottom: 1px solid #000;}
-.roster tbody tr:hover {background-color: #f0f0f0;}
-.roster tbody tr:last-child td {border: none;}
-.roster tbody td {border-bottom: 1px solid #ddd;}
+.table th {font-weight: bold; padding-right:25px;}
+.table th:first-child, .table td:first-child {padding-left:20px; text-align: right;}
+.table thead tr:last-child th {border-bottom: 1px solid #000;}
+.table tbody tr:hover {background-color: #f0f0f0;}
+.table tbody tr:last-child td {border: none;}
+.table tbody td {border-bottom: 1px solid #ddd;}
 
-.roster th:first-child { text-align: center !important;
+.table th:first-child { text-align: center !important;
 }
 
-.roster td {
-  padding-right: 25px;
+.table td {
+  padding-right: 50px;
   font-size: .9em;
   font-weight: 300;
 }
  
 
+.results td {
+  padding-right: 25px !important;
+  font-size: .9em;
+  font-weight: 300;
+}
+ 
 #submenu {
 	font-size: 12px;
 }
