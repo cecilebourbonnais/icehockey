@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-	margin-top:100px; margin-bottom:20px;
+	margin-top:110px; margin-bottom:20px;
 }
 
 p { 
@@ -208,7 +208,7 @@ ul {
 	color:black;
 	padding: 10px 10% ;
 }
-
+ 
 /* table */
  
 .table {
@@ -219,12 +219,12 @@ ul {
 .table table {
   color: #333;
   font-family: sans-serif;
-  text-align: left;
+  text-align: center;
   line-height: 40px;
   min-width: 75%;
   border-spacing: 0;
   border: 2px solid #800000;
-  margin: 50px auto;
+  margin: 30px auto ;
 }
 
 .table thead tr:first-child {
@@ -286,14 +286,22 @@ ul {
 }
 
 /* Photos */
+
+ 
+
  .photos  {
- 	padding: 2% 8%;
+ 	padding:  10px 10%;
  	text-align: center;
  }
 
  .photos img {
  	margin-right: 5px;
  	margin-top: 5px;
+ }
+
+ .photoalbum {
+ 	margin-top: 2%;
+ 	text-align:center;
  }
 
 /* Footer */
@@ -314,3 +322,5 @@ footer a {
 	color: white !important;
 	font-size: 12px;
 }  
+
+
