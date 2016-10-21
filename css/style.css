@@ -219,7 +219,6 @@ ul {
 .table table {
   color: #333;
   font-family: sans-serif;
-  text-align: center;
   line-height: 40px;
   min-width: 75%;
   border-spacing: 0;
@@ -240,14 +239,13 @@ ul {
 }
 
 .table th {font-weight: bold; padding-right:25px;}
-.table th:first-child, .table td:first-child {padding-left:20px; text-align: right;}
+.table th:first-child, .table td:first-child {padding-left:30px ;}
 .table thead tr:last-child th {border-bottom: 1px solid #000;}
 .table tbody tr:hover {background-color: #f0f0f0;}
 .table tbody tr:last-child td {border: none;}
 .table tbody td {border-bottom: 1px solid #ddd;}
 
-.table th:first-child { text-align: center !important;
-}
+tr:first-child th:first-child { text-align: center !important; }
 
 .table td {
   padding-right: 50px;
